@@ -1,0 +1,209 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/siska-downloader",
+  "serply_link": "https://serp.ly/siska-downloader",
+  "app_name": "Siska Video Downloader",
+  "short_description": "Download & Save Siska Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Siska Downloader is a browser extension that helps you save videos from Siska video detail pages directly to your computer. It works with the Siska video player to detect available media and export it as MP4 files you can keep and watch offline.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/siska-downloader-fullscreen-01-9a7ee9e0fe.webp",
+    "https://apps.serp.co/media/optimized-products/siska-downloader-fullscreen-02-8dadae8f49.webp",
+    "https://apps.serp.co/media/optimized-products/siska-downloader-fullscreen-03-cffc07781b.webp",
+    "https://apps.serp.co/media/optimized-products/siska-downloader-fullscreen-04-433d87f263.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "What Siska pages does this extension work with?",
+      "answer": "It works with Siska video detail pages that use the video.php route with a numeric video ID parameter."
+    },
+    {
+      "question": "Do I need to create an account to use the extension?",
+      "answer": "You will need to sign in with your email to activate the trial or paid license. A one-time password is sent for secure verification."
+    },
+    {
+      "question": "Can I download multiple videos at the same time?",
+      "answer": "The extension handles one download at a time. Start a new download after the current one finishes."
+    },
+    {
+      "question": "Does the extension work on mobile browsers?",
+      "answer": "The extension is designed for desktop browsers. Mobile browser support is not confirmed."
+    },
+    {
+      "question": "What happens when my trial downloads run out?",
+      "answer": "You can purchase a paid license to continue downloading. Your trial downloads reset if you sign in with a new account."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built around Siska video detail pages with numeric video IDs",
+    "Works directly through your browser without extra software",
+    "Detects media through the page player for reliable capture",
+    "Exports videos as standard MP4 files for easy playback",
+    "Simple button-driven workflow from page to download",
+    "Detects videos on Siska video detail pages automatically",
+    "Works with the page player for reliable media capture",
+    "Exports videos as standard MP4 files",
+    "Simple button-driven workflow from detection to download",
+    "Saves files to a dedicated Siska folder for easy organization",
+    "Supports multiple browser environments including Chrome, Edge, Brave, and Firefox",
+    "Lightweight extension that runs only when needed",
+    "No external software or accounts required for basic use"
+  ],
+  "content": {
+    "why": [
+      "Siska video pages use a player-based delivery system where media is streamed through the page rather than offered as a direct download link. This means saving a video for offline use usually involves inspecting network requests or using screen recording tools that reduce quality.",
+      "Siska Downloader works with the page player to detect the media stream and offer it as a downloadable file. Instead of tracing CDN requests manually or settling for lower-quality recordings, you can use the extension to capture the video directly from the player in its original format."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Siska and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Visit the Siska video page you want to download from.",
+      "Make sure the video player is visible and the page has fully loaded.",
+      "Start playing the video so the player exposes the media stream.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "Wait for the extension to detect the available video on the page.",
+      "Select your preferred quality option from the list shown.",
+      "Click the download button to begin the export process.",
+      "Save the MP4 file to your preferred location when prompted."
+    ],
+    "supported_formats": [
+      "Input: Videos streamed through the Siska player on video detail pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Siska users who want to save videos for offline viewing",
+      "People who prefer browser-based tools over standalone download software",
+      "Users who want a simple button-driven workflow without technical setup",
+      "Anyone looking to archive Siska videos without relying on screen recording"
+    ],
+    "use_cases": [
+      "Saving Siska videos to watch later without an internet connection",
+      "Building a personal archive of favorite Siska content",
+      "Transferring videos to other devices for offline playback",
+      "Backing up videos that may be removed from the platform",
+      "Creating a local library of Siska content for personal use"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any video on the page Make sure the video player is visible and playback has started. The extension needs the player to expose media before it can detect the stream.",
+      "The download button does not appear Try refreshing the page and starting the video again. Make sure you are on a supported Siska video detail page with a numeric video ID.",
+      "The download fails or produces a broken file Check your internet connection and try again. Some videos may have restrictions that prevent downloading the full stream.",
+      "The popup shows no quality options The available qualities depend on what the Siska player exposes for that specific video. Try a different video to confirm the extension is working.",
+      "The extension does not work after updating Clear your browser cache and reload the Siska page. Make sure you have the latest version installed from the releases page."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Siska page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Siska video pages may use separate CDN hosts for media delivery",
+      "The extension works best when the video player is actively playing"
+    ],
+    "about": [
+      "Siska is a video platform that hosts content through video detail pages with numeric video IDs. Siska Downloader helps you save videos from these pages directly through your browser without needing to trace media streams manually."
+    ]
+  },
+  "serpx_link": "https://serpx.link/siska-downloader",
+  "github_topics": [
+    "siska-download",
+    "siska-downloader",
+    "siska-video-downloader",
+    "siska-video-downloader-online",
+    "siska-video-downloader-mac",
+    "siska-video-downloader-window",
+    "siska-video-downloader-free",
+    "siska-video-downloader-extension",
+    "siska-video-downloader-app",
+    "siska-video-downloader-chrome",
+    "siska-video-downloader-from-url",
+    "how-to-download-siska-videos",
+    "how-to-download-siska-videos-mac",
+    "how-to-download-siska-videos-windows",
+    "how-to-download-siska-videos-online",
+    "how-to-download-siska-videos-free",
+    "how-to-download-from-siska",
+    "how-to-download-videos-from-siska",
+    "download-siska-videos",
+    "siska-video-tutorial",
+    "save-siska-videos",
+    "siska-video-content-saver",
+    "how-to-download-siska-videos-for-free"
+  ],
+  "hashtags": [
+    "#SiskaDownload",
+    "#SiskaDownloader",
+    "#SiskaVideoDownloader",
+    "#SiskaVideoDownloaderOnline",
+    "#SiskaVideoDownloaderMac",
+    "#SiskaVideoDownloaderWindow",
+    "#SiskaVideoDownloaderFree",
+    "#SiskaVideoDownloaderExtension",
+    "#SiskaVideoDownloaderApp",
+    "#SiskaVideoDownloaderChrome",
+    "#SiskaVideoDownloaderFromURL",
+    "#HowToDownloadSiskaVideos",
+    "#HowToDownloadSiskaVideosMac",
+    "#HowToDownloadSiskaVideosWindows",
+    "#HowToDownloadSiskaVideosOnline",
+    "#HowToDownloadSiskaVideosFree",
+    "#HowToDownloadFromSiska",
+    "#HowToDownloadVideosFromSiska",
+    "#DownloadSiskaVideos",
+    "#SiskaVideoTutorial",
+    "#SaveSiskaVideos",
+    "#SiskaVideoContentSaver",
+    "#HowToDownloadSiskaVideosForFree"
+  ],
+  "youtube_tags": [
+    "Siska Download",
+    "Siska Downloader",
+    "Siska Video Downloader",
+    "Siska Video Downloader Online",
+    "Siska Video Downloader Mac",
+    "Siska Video Downloader Window",
+    "Siska Video Downloader Free",
+    "Siska Video Downloader Extension",
+    "Siska Video Downloader App",
+    "Siska Video Downloader Chrome",
+    "Siska Video Downloader From URL",
+    "How To Download Siska Videos",
+    "How To Download Siska Videos Mac",
+    "How To Download Siska Videos Windows",
+    "How To Download Siska Videos Online",
+    "How To Download Siska Videos Free",
+    "How To Download From Siska",
+    "How To Download Videos From Siska",
+    "Download Siska Videos",
+    "Siska Video Tutorial",
+    "Save Siska Videos",
+    "Siska Video Content Saver",
+    "How To Download Siska Videos For Free"
+  ]
+}
